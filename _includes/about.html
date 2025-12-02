@@ -1,0 +1,92 @@
+<!-- About -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="page-section" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].about.title | default: "About KIAPI" }}</h2>  <br>  <br>
+        <h3>{{ site.data.sitetext[site.locale].about.text | default: "설립 목적" }}</h3>  <br>
+        <p class="text-faded">자동차부품업체의 권익 옹호와 ITS기반 자동차 부품 거점 밸리로 육성하기 위하여<br>인프라 구축과 이의 효율적인 관리 운영을 통해 첨단 고부가 자동차 부품산업 및 관련 사업의 국제경쟁력 강화와 발전에 기여</p><br>
+        <p> <img src="assets/img/about/kiapi_main_building.PNG" width="750" height="510" class="center responsive-image"> </p>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-8 offset-lg-2 text-center">
+            <h3>{{ site.data.sitetext[site.locale].about.text | default: "현황" }}</h3>  <br>
+            <h5>{{ site.data.sitetext[site.locale].about.text | default: "위치" }}</h5>
+            <p class="text-faded">대구광역시 달성군 구지면 국가산단서로 201<br>201, Gukgasandanseo-ro, Guji-myeon, Dalseong-gun, Daegu, 43011, Republic of Korea</p>
+            <h5>{{ site.data.sitetext[site.locale].about.text | default: "규모" }}</h5>
+            <p class="text-faded">413,564m² 규모의 시험장 및 관련 장비 운영<br>Test track of 413,564m² and operation of related equipment</p><br>
+              <p> <img src="assets/img/about/kiapi_location.png" width="750" height="947" class="center responsive-image"> </p>
+          </div>
+      </div>
+  </div>
+
+  <br><br>  <br><br>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.about.title | default: "About Data Base" }}</h2>  <br>  <br>
+        <h3>{{ site.data.sitetext.about.text | default: "목표 및 내용" }}</h3>  <br>
+        <h5>{{ site.data.sitetext[site.locale].about.text | default: "과제 목표" }}</h5>
+        <p class="text-faded">본 과제는 자율주행 교통사고 분석 소프트웨어 개발을 통해 자율주행자동차와 일반차가 혼재된 상황에서 발생할 수 있는 교통사고를 분석하고<br>이에 기반한 자율주행 교통사고 조사 및 분석 체계를 정립하는 것을 목적으로 함</p>
+        <h5>{{ site.data.sitetext[site.locale].about.text | default: "구축 목적" }}</h5>
+        <p class="text-faded">이러한 과제 목표에 따라 운전자 시뮬레이터(DILS, Drive In Loop Simulation)을 활용한 자율주행 자동차 교통사고 원인분석 성능 검증을 위하여<br>자율주행 차량의 대표 사고상황 시나리오를 시뮬레이션에서 모사/재현하고 이에 대한 데이터 베이스 구축을 목적으로 함</p>
+        <h5>{{ site.data.sitetext[site.locale].about.text | default: "데이터 구조" }}</h5>
+        <p class="text-faded">시나리오 정의(*.json) 파일 및 시나리오 상의 사고차량 거동 데이터(*.csv) 묶음 </p>
+        <p> <img src="assets/img/about/Data.jpg" width="80%" height="80%" class="center responsive-image"> </p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.about.section | default: "about" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.about.title | default: "About KIAPI" }}</h2>  <br>  <br>
+        <h3>{{ site.data.sitetext.about.text | default: "Purpose of Establishment" }}</h3>  <br>
+        <p class="text-faded">KIAPI will support evaluation of parts of autonomous vehicles and ADAS for local auto parts suppliers with limited development and continuous growth due to changes in internal and external condition, and to become a necessary facility in the local auto parts industry.
+Contributing to the strengthening and development of international advanced competitiveness of high premium auto parts industry and related industries through infrastructure construction and efficient management and operation to foster the rights of auto parts makers and to foster ITS-based automotive parts base valley.</p>
+        <p> <img src="assets/img/about/kiapi_main_building.PNG" width="960" height="auto" class="center"> </p>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-8 offset-lg-2 text-center">
+          <h3>{{ site.data.sitetext[site.locale].about.text | default: "Location and Scale" }}</h3>  <br>
+              <p class="text-faded">201, Gukgasandanseo-ro, Guji-myeon, Dalseong-gun, Daegu, 43011, Republic of Korea.<br>Test track of 394,565m² and operation of related equipment.</p>
+              <p> <img src="assets/img/about/kiapi_location.png" width="960" height="auto" class="center"> </p>
+         </div>
+      </div>
+  </div>
+
+  <br><br>  <br><br>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.about.title | default: "About Data Base" }}</h2>  <br>  <br>
+        <h3>{{ site.data.sitetext.about.text | default: "Purpose of Construction" }}</h3>  <br>
+        <p class="text-faded">Descript in this location</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endif %}
+<!-- End About -->
