@@ -31,16 +31,20 @@
   
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
+      <div class="col-lg-12 text-left">
         <h2 class="section-heading text-uppercase">{{ site.data.sitetext.about.title | default: "About Data Base" }}</h2>  <br>  <br>
         <h3>{{ site.data.sitetext.about.text | default: "목표 및 내용" }}</h3>  <br>
         <h5>{{ site.data.sitetext[site.locale].about.text | default: "과제 목표" }}</h5>
-        <p class="text-faded">본 과제는 자율주행 교통사고 분석 소프트웨어 개발을 통해 자율주행자동차와 일반차가 혼재된 상황에서 발생할 수 있는 교통사고를 분석하고<br>이에 기반한 자율주행 교통사고 조사 및 분석 체계를 정립하는 것을 목적으로 함</p>
+        <p class="text-faded">3-Tier 연계 자율주행 SW·데이터에 대해 신뢰성을 검증할 수 있는 클라우드 기반 통합평가 모델·프로세스 개발 및 데이터 기반 검증 Tool 기술 개발 </p>
+        <p class="text-faded"> - (자율주행 SW 검증) 데이터 분석 기반 3-Tier 연계 자율주행 SW 운행설계범위 준수 검증 기술 개발</p>
+        <p class="text-faded"> - (클라우드/엣지 검증) 클라우드/엣지연계 자율주행 서비스 데이터 정합성 검증 기술개발</p>
+        <p class="text-faded"> - (검증 프레임워크) 자율주행 SW 운영 프로세스의 클라우드 기반 통합검증용 Tool 개발</p>
         <h5>{{ site.data.sitetext[site.locale].about.text | default: "구축 목적" }}</h5>
-        <p class="text-faded">이러한 과제 목표에 따라 운전자 시뮬레이터(DILS, Drive In Loop Simulation)을 활용한 자율주행 자동차 교통사고 원인분석 성능 검증을 위하여<br>자율주행 차량의 대표 사고상황 시나리오를 시뮬레이션에서 모사/재현하고 이에 대한 데이터 베이스 구축을 목적으로 함</p>
-        <h5>{{ site.data.sitetext[site.locale].about.text | default: "데이터 구조" }}</h5>
-        <p class="text-faded">시나리오 정의(*.json) 파일 및 시나리오 상의 사고차량 거동 데이터(*.csv) 묶음 </p>
-        <p> <img src="assets/img/about/Data.jpg" width="80%" height="80%" class="center responsive-image"> </p>
+        <p class="text-faded">본 연구의 결과물은 3Tier 연계형 자율주행 SW 및 데이터 통합검증용 평가를 위한 SW등이며, 데이터 기반의 안전성과 신뢰성을 검증하는데 사용할 수 있음</p>
+        <p class="text-faded">본 연구를 통해 수집된 데이터는 3Tier 연계형 자율주행 서비스의 검증을 위해 가공된 실도로 주행 데이터를 제공하며, 이를 기반으로 데이터의 무결성·정합성 및 안전성·신뢰성을 검증할 수 있는 소프트웨어를 함께 제공 </p>
+        <h5>{{ site.data.sitetext[site.locale].about.text | default: "데이터 포맷" }}</h5>
+        <p class="text-faded">ROS기반 C/C++/Pythoin, (DATA) ROS bag, (Text) CSV, TXT 등 </p>
+       ###<img src="assets/img/about/Data.jpg" width="80%" height="80%" class="center responsive-image"> </p>
 
       </div>
     </div>
