@@ -35,10 +35,10 @@ en: &DEFAULT_EN
     list:
       - title: "MSIT"
         url: https://www.msit.go.kr/index.do
-        logo: assets/img/clients/MSIT.PNG
+        logo: assets/img/clients/MSIT.jpg
       - title: "IITP"
         url: https://www.iitp.kr/web/index.do
-        logo: assets/img/clients/IITP.jpg
+        logo: assets/img/clients/IITP.png
       - title: "KADIF"
         url: https://www.kadif.kr/
         logo: assets/img/clients/KADIF.jpg
