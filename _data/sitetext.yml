@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: 자율주행자동차 교통사고 조사·분석 기술 개발을 위한 교통사고 재현 S/W 개발
-    text: 대표 자율주행 사고상황 모사재현 시뮬레이션 데이터베이스
+    title: 3-Tier 연계형 자율주행 소프트웨어 및 데이터 통합 검증용 클라우드 기반 평가 모델·프로세스 개발
+    text: 3Tier통합검증
     button: Find Out More
     buttonlink: "#about"
 
@@ -24,7 +24,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Contents"
-    text: "데이터 공유 문의: thkim@kiapi.or.kr / kwnsdud@kiapi.or.kr"
+    text: "데이터 공유 문의: gudtjr0124@kiapi.or.kr / sjhwang@kiapi.or.kr"
     section: portfolio
     closebutton: "Close"
 
@@ -33,21 +33,18 @@ en: &DEFAULT_EN
     max-height: 60px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "KNPA"
-        url: https://www.police.go.kr
-        logo: assets/img/clients/KNPA.jpg
-      - title: "KIPoT"
-        url: https://kipot.or.kr/
-        logo: assets/img/clients/KIPoT.jpg
+      - title: "MSIT"
+        url: https://www.msit.go.kr/index.do
+        logo: assets/img/clients/MSIT.PNG
+      - title: "IITP"
+        url: https://www.iitp.kr/web/index.do
+        logo: assets/img/clients/IITP.jpg
       - title: "KADIF"
         url: https://www.kadif.kr/
         logo: assets/img/clients/KADIF.jpg
-      - title: "Samsong"
-        url: https://www.samsong.com/main/?skin=index_kor.html
-        logo: assets/img/clients/Samsong.jpg
-#      - title: "KIAPI"
-#        url: https://www.kiapi.or.kr
-#        logo: assets/img/clients/KIAPI.jpg
+      - title: "KIAPI"
+        url: https://www.kiapi.or.kr
+        logo: assets/img/clients/KIAPI.jpg
 
   contact:
     title: "Contact Us"
