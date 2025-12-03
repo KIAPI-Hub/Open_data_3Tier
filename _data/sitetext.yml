@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: 3-Tier 연계형 자율주행 소프트웨어 및 데이터 통합 검증용 클라우드 기반 평가 모델·프로세스 개발
-    text: Open Data 3Tier
+    text: Open Data(3-Tier)
     button: Find Out More
     buttonlink: "#about"
 
