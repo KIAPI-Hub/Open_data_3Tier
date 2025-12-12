@@ -1,15 +1,14 @@
-# [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
+# [KIAPI_Open Data_3Tier](https://kiapi-hub.github.io/Open_data_3Tier/) 저장소
 
-This is the fastest and easiest way to get up and running on GitHub Pages.
-Simply generate your own repository by clicking the 
-[![template button](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate) button, 
-then replace the sample content with your own and configure for your needs.
+**3Tier 통합검증 과제 목표**
+3-Tier 연계 자율주행 SW·데이터에 대해 신뢰성을 검증할 수 있는 클라우드 기반 통합평가 모델·프로세스 개발 및 데이터 기반 검증 Tool 기술 개발
+- (자율주행 SW 검증) 데이터 분석 기반 3-Tier 연계 자율주행 SW 운행설계범위 준수 검증 기술 개발
+- (클라우드/엣지 검증) 클라우드/엣지연계 자율주행 서비스 데이터 정합성 검증 기술개발
+- (검증 프레임워크) 자율주행 SW 운영 프로세스의 클라우드 기반 통합검증용 Tool 개발
 
-If you want your website to be at `YOUR-USERNAME.github.io`, that's what you must name your repo. If you want it to be like this: `https://raviriley.github.io/agency-jekyll-theme-starter/`, them make sure the `baseurl` in `_config.yml` matches the name of your repo. You can also use a `CNAME` file and your own custom domain!
+**본 저장소 구축 목적**
+본 연구의 결과물은 3Tier 연계형 자율주행 SW 및 데이터 통합검증용 평가를 위한 SW등이며, 데이터 기반의 안전성과 신뢰성을 검증하는데 사용할 수 있음
+본 연구를 통해 수집된 데이터는 3Tier 연계형 자율주행 서비스의 검증을 위해 가공된 실도로 주행 데이터를 제공하며, 이를 기반으로 데이터의 무결성·정합성 및 안전성·신뢰성을 검증할 수 있는 소프트웨어를 함께 제공
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
-
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
+**데이터 포맷**
+ROS기반 C/C++/Pythoin, (DATA) ROS bag, (Text) CSV, TXT 등
