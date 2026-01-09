@@ -1,4 +1,3 @@
-<img width="472" height="363" alt="image" src="https://github.com/user-attachments/assets/f649d606-f4ef-4b86-8cd5-f8330ed5d494" />---
 title: 2025년도 데이터 수집
 subtitle: "- 실도로 -"
 image: assets/img/portfolio/데이터 수집경로.png
