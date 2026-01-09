@@ -15,4 +15,4 @@ caption:
 - **데이터수집시간**: 약 45시간(44시간 44분)
 - **데이터용량**: 약 544GB
 
-**Download**: [Link](https://gofile.me/7P5S4/PD42DU25L)
+**Download**: [Link](https://gofile.me/7P5S4/oscG0BLsH)
