@@ -25,6 +25,7 @@ en: &DEFAULT_EN
   portfolio:
     title: "Contents"
     text: "데이터 공유 문의: ejyang@kiapi.or.kr / gudtjr0124@kiapi.or.kr / hyunwoo@kiapi.or.kr"
+    image: "assets/img/portfolio/3tier_infra.png"
     section: portfolio
     closebutton: "Close"
 
