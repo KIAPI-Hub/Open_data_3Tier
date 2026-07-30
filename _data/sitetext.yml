@@ -24,7 +24,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Contents"
-    text: "데이터 공유 문의: gudtjr0124@kiapi.or.kr / sjhwang@kiapi.or.kr"
+    text: "데이터 공유 문의: ejyang@kiapi.or.kr / gudtjr0124@kiapi.or.kr / hyunwoo@kiapi.or.kr"
     section: portfolio
     closebutton: "Close"
 

@@ -1,13 +1,13 @@
 ---
 title: MergedPC
 subtitle: "- 인프라 -"
-image: assets/img/portfolio/mergedpc_thumbnail.png
+image: assets/img/portfolio/mergedpc.png
 alt: Shirts on a hanger
 
 caption:
   title: MergedPC
   subtitle: "- 인프라 -"
-  thumbnail: assets/img/portfolio/mergedpc_thumbnail.png
+  thumbnail: assets/img/portfolio/mergedpc.png
 --- 
 
 {:.list-inline}
