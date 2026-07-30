@@ -107,36 +107,41 @@
   }
   .close-modal {
     position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
+    top: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
     cursor: pointer;
+    z-index: 1060;
     background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
     &:hover {
-      opacity: 0.3;
+      background-color: rgba(0, 0, 0, 0.08);
+      opacity: 1;
     }
     .lr {
-      /* Safari and Chrome */
-      z-index: 1051;
-      width: 1px;
-      height: 75px;
-      margin-left: 35px;
-      /* IE 9 */
-      -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
+      z-index: 1061;
+      width: 2px;
+      height: 24px;
+      margin-left: 0;
       transform: rotate(45deg);
       background-color: $gray-900;
+      pointer-events: none;
+      position: relative;
       .rl {
-        /* Safari and Chrome */
-        z-index: 1052;
-        width: 1px;
-        height: 75px;
-        /* IE 9 */
-        -webkit-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
+        z-index: 1062;
+        width: 2px;
+        height: 24px;
         transform: rotate(90deg);
         background-color: $gray-900;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;
       }
     }
   }
